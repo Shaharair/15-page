@@ -1,0 +1,533 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+ul{
+    list-style: none;
+}
+a{
+    text-decoration: none;
+}
+.menu-bg{
+    width: 100%;
+    position: absolute;
+    z-index: 999;
+}
+/* navbar part start */
+.menu-bg ul li{
+    padding-left: 30px;
+}
+.menu-bg ul li a{
+    color: black;
+    font-size: 18px;
+    font-weight: 500;
+    font-family: 'Open Sans', sans-serif;
+}
+.menu-bg .one .contact{
+    color: red;
+    font-size: 18px;
+    font-weight: 500;
+    font-family: 'Open Sans', sans-serif;
+    border: 2px solid red;
+    border-radius: 20px;
+    padding: 18px 50px;
+    margin-left: 60px;
+    transition: 0.5s;
+}
+.menu-bg .one .contact:hover{
+    background-color: red;
+    color: white;
+}
+/* navbar part end */
+/* text part start */
+#text{
+    background-color: #FBF3F0;
+}
+.text_main{
+    padding-top: 128px;
+    padding-bottom: 128px;
+}
+.text_text h6{
+    color: black;
+    font-size: 18px;
+    font-weight: 500;
+    font-family: 'Open Sans', sans-serif;
+}
+.text_text h3{
+    color: black;
+    font-size: 44px;
+    font-weight: 700;
+    font-family: 'Open Sans', sans-serif;
+    border-right: 2px solid #29313D;
+}
+.text_text p{
+    color: #29313D;
+    font-size: 16px;
+    font-weight: 500;
+    font-family: 'Open Sans', sans-serif;
+    margin-top: 50px;
+}
+/* text part end */
+/* logo part start */
+.logo_text h3{
+    color: black;
+    font-size: 40px;
+    font-weight: 700;
+    font-family: 'Open Sans', sans-serif;
+    text-align: center;
+    padding-top: 128px;
+    padding-bottom: 50px;
+}
+.logo_img{
+    background-color: #FBF3F0;
+    border-radius: 7px;
+}
+/* logo part end */
+/* img part start */
+#img{
+    background-color: #FBF3F0;
+}
+.img_main{
+    padding-top: 100px;
+    padding-bottom: 100px;
+    margin-top: 128px;
+    margin-bottom: 128px;
+}
+.img_text{
+    padding-top: 50px;
+}
+.img_text h3{
+    color: black;
+    font-size: 30px;
+    font-weight: 600;
+    font-family: 'Open Sans', sans-serif;
+}
+.img_text p{
+    color: #29313D;
+    font-size: 16px;
+    font-weight: 500;
+    font-family: 'Open Sans', sans-serif;
+}
+.img_img img{
+    width: 100%;
+}
+/* img part end */
+/* do part start */
+.do_text h3{
+    color: black;
+    font-size: 40px;
+    font-weight: 700;
+    font-family: 'Open Sans', sans-serif;
+    text-align: center;
+    padding-bottom: 50px;
+}
+.do_writte h4{
+    color: black;
+    font-size: 30px;
+    font-weight: 600;
+    font-family: 'Open Sans', sans-serif;
+    text-align: center;
+}
+.do_writte p{
+    color: #29313D;
+    font-size: 16px;
+    font-weight: 500;
+    font-family: 'Open Sans', sans-serif;
+    text-align: center;
+}
+.do_writte img{
+    margin-left: 130px;
+    padding-bottom: 30px;
+}
+/* do part end */
+/* work part start */
+#work{
+    background-color: #FBF3F0;
+}
+.work_main{
+    padding-top: 100px;
+    padding-bottom: 100px;
+    margin-top: 128px;
+    margin-bottom: 128px;
+}
+.work_one{
+    background-color: white;
+    padding-top: 30px;
+    padding-bottom: 30px;
+    border-radius: 20px;
+}
+.work_one h5{
+    color: black;
+    font-size: 24px;
+    font-weight: 600;
+    font-family: 'Open Sans', sans-serif;
+    text-align: center;
+}
+.work_one h6{
+    color: #29313D;
+    font-size: 18px;
+    font-weight: 500;
+    font-family: 'Open Sans', sans-serif;
+    text-align: center;
+}
+.work_text h3{
+    color: black;
+    font-size: 44px;
+    font-weight: 600;
+    font-family: 'Open Sans', sans-serif;
+}
+.work_text p{
+    color: #29313D;
+    font-size: 16px;
+    font-weight: 500;
+    font-family: 'Open Sans', sans-serif;
+}
+.work_text h4{
+    color: red;
+    font-size: 18px;
+    font-weight: 500;
+    font-family: 'Open Sans', sans-serif;
+    border: 2px solid red;
+    border-radius: 20px;
+    width: 200px;
+    height: 60px;
+    text-align: center;
+    line-height: 60px;
+    transition: 0.5s;
+}
+.work_text h4:hover{
+    background-color: red;
+    color: white;
+}
+/* work part end */
+/* team part start */
+#team{
+    background-color: #EDF3F7;
+}
+.team_main{
+    padding-top: 100px;
+    padding-bottom: 200px;
+}
+.team_text h6{
+    color: darkorange;
+    font-size: 18px;
+    font-weight: 600;
+    font-family: 'Open Sans', sans-serif;
+    text-align: center;
+}
+.team_text h3{
+    color: black;
+    font-size: 40px;
+    font-weight: 700;
+    font-family: 'Open Sans', sans-serif;
+    text-align: center;
+}
+/* team part end */
+/* our part start */
+.our_main{
+    position: relative;
+}
+.our_one{
+    background: url(../images/bg28.png);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 400px;
+    margin-top: -150px;
+}
+.our_two{
+    background: url(../images/bg28.png);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 400px;
+    margin-top: -150px;
+}
+.our_three{
+    background: url(../images/bg28.png);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 400px;
+    margin-top: -150px;
+}
+.our_four{
+    background: url(../images/bg28.png);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 400px;
+    margin-top: -150px;
+}
+.our_one h5{
+    background-color: white;
+    width: 160px;
+    height: 60px;
+    border-radius: 7px;
+    font-size: 24px;
+    font-weight: 600;
+    font-family: 'Open Sans', sans-serif;
+    text-align: center;
+    transition: 0.5s;
+    position: absolute;
+    margin-top: 350px;
+}
+.our_one h5:hover{
+    background-color: red;
+    color: white;
+}
+.our_one p{
+    color: black;
+    font-size: 16px;
+    font-weight: 500;
+    font-family: 'Open Sans', sans-serif;
+    text-align: center;
+    transition: 0.5s;
+}
+.our_one p:hover{
+    background-color: red;
+    color: white;
+}
+.our_one i{
+    font-size: 20px;
+    color: black;
+    background-color: whitesmoke;
+    width: 50px;
+    height: 50px;
+    text-align: center;
+    line-height: 50px;
+    border-radius: 30px;
+    margin-left: 200px;
+    margin-top: 340px;
+    transition: 0.5s;
+}
+.our_one i:hover{
+    background-color: red;
+    color: white;
+}
+.our_two h5{
+    background-color: white;
+    width: 160px;
+    height: 60px;
+    border-radius: 7px;
+    font-size: 24px;
+    font-weight: 600;
+    font-family: 'Open Sans', sans-serif;
+    text-align: center;
+    transition: 0.5s;
+    position: absolute;
+    margin-top: 350px;
+}
+.our_two h5:hover{
+    background-color: red;
+    color: white;
+}
+.our_two p{
+    color: black;
+    font-size: 16px;
+    font-weight: 500;
+    font-family: 'Open Sans', sans-serif;
+    text-align: center;
+    transition: 0.5s;
+}
+.our_two p:hover{
+    background-color: red;
+    color: white;
+}
+.our_two i{
+    font-size: 20px;
+    color: black;
+    background-color: whitesmoke;
+    width: 50px;
+    height: 50px;
+    text-align: center;
+    line-height: 50px;
+    border-radius: 30px;
+    margin-left: 200px;
+    position: absolute;
+    margin-top: 120px;
+    transition: 0.5s;
+}
+.our_two i:hover{
+    background-color: red;
+    color: white;
+}
+.our_three h5{
+    background-color: white;
+    width: 160px;
+    height: 60px;
+    border-radius: 7px;
+    font-size: 24px;
+    font-weight: 600;
+    font-family: 'Open Sans', sans-serif;
+    text-align: center;
+    transition: 0.5s;
+    position: absolute;
+    margin-top: 350px;
+}
+.our_three h5:hover{
+    background-color: red;
+    color: white;
+}
+.our_three p{
+    color: black;
+    font-size: 16px;
+    font-weight: 500;
+    font-family: 'Open Sans', sans-serif;
+    text-align: center;
+    transition: 0.5s;
+}
+.our_three p:hover{
+    background-color: red;
+    color: white;
+}
+.our_three i{
+    font-size: 20px;
+    color: black;
+    background-color: whitesmoke;
+    width: 50px;
+    height: 50px;
+    text-align: center;
+    line-height: 50px;
+    border-radius: 30px;
+    margin-left: 200px;
+    margin-top: 340px;
+    transition: 0.5s;
+}
+.our_three i:hover{
+    background-color: red;
+    color: white;
+}
+.our_four h5{
+    background-color: white;
+    width: 160px;
+    height: 60px;
+    border-radius: 7px;
+    font-size: 24px;
+    font-weight: 600;
+    font-family: 'Open Sans', sans-serif;
+    text-align: center;
+    transition: 0.5s;
+    position: absolute;
+    margin-top: 350px;
+}
+.our_four h5:hover{
+    background-color: red;
+    color: white;
+}
+.our_four p{
+    color: black;
+    font-size: 16px;
+    font-weight: 500;
+    font-family: 'Open Sans', sans-serif;
+    text-align: center;
+    transition: 0.5s;
+}
+.our_four p:hover{
+    background-color: red;
+    color: white;
+}
+.our_four i{
+    font-size: 20px;
+    color: black;
+    background-color: whitesmoke;
+    width: 50px;
+    height: 50px;
+    text-align: center;
+    line-height: 50px;
+    border-radius: 30px;
+    margin-left: 200px;
+    margin-top: 340px;
+    transition: 0.5s;
+}
+.our_four i:hover{
+    background-color: red;
+    color: white;
+}
+/* our part end */
+/* got part start */
+#got{
+    background-color: #FFD7C8;
+}
+.got_main{
+    padding-top: 100px;
+    padding-bottom: 100px;
+    margin-top: 128px;
+}
+.got_text h5{
+    color: #29313D;
+    font-size: 18px;
+    font-weight: 600;
+    font-family: 'Open Sans', sans-serif;
+}
+.got_text h3{
+    color: black;
+    font-size: 30px;
+    font-weight: 700;
+    font-family: 'Open Sans', sans-serif;
+}
+.got_text h6{
+    color: black;
+    font-size: 18px;
+    font-weight: 500;
+    font-family: 'Open Sans', sans-serif;
+    border: 2px solid red;
+    border-radius: 20px;
+    width: 160px;
+    height: 60px;
+    text-align: center;
+    line-height: 60px;
+    transition: 0.5s;
+}
+.got_text h6:hover{
+    background-color: red;
+    color: white;
+}
+.got_text p{
+    color: #29313D;
+    font-size: 16px;
+    font-weight: 500;
+    font-family: 'Open Sans', sans-serif;
+    margin-top: 50px;
+    border-top: 2px solid #29313D;
+}
+/* got part end */
+/* footer part start */
+.footer_text p{
+    color: black;
+    font-size: 16px;
+    font-weight: 500;
+    font-family: 'Open Sans', sans-serif;
+    padding-top: 30px;
+}
+.footer_menu h4{
+    color: black;
+    font-size: 24px;
+    font-weight: 600;
+    font-family: 'Open Sans', sans-serif;
+    padding-bottom: 30px;
+}
+.footer_menu ul{
+    margin-left: -30px;
+}
+.footer_menu ul li{
+    color: black;
+    font-size: 16px;
+    font-weight: 500;
+    font-family: 'Open Sans', sans-serif;
+    padding: 10px 0;
+}
+.footer_email h6{
+    color: black;
+    font-size: 16px;
+    font-weight: 500;
+    font-family: 'Open Sans', sans-serif;
+    padding-top: 30px;
+}
+.footer_text{
+    padding-top: 100px;
+}
+.footer_menu{
+    padding-top: 100px;
+}
+/* footer part end */

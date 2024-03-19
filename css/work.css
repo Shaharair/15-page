@@ -1,0 +1,499 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+ul{
+    list-style: none;
+}
+a{
+    text-decoration: none;
+}
+.menu-bg{
+    width: 100%;
+    position: absolute;
+    z-index: 999;
+}
+/* navbar part start */
+.menu-bg ul li{
+    padding-left: 30px;
+}
+.menu-bg ul li a{
+    color: white;
+    font-size: 18px;
+    font-weight: 500;
+    font-family: 'Open Sans', sans-serif;
+    transition: 0.5s;
+}
+.menu-bg ul li a:hover{
+    background-color: #1BBF00;
+    color: white;
+    border-radius: 10px;
+}
+.menu-bg .one .contact{
+    color: white;
+    font-size: 18px;
+    font-weight: 500;
+    font-family: 'Open Sans', sans-serif;
+    border: 2px solid #1BBF00;
+    border-radius: 20px;
+    padding: 18px 50px;
+    margin-left: 60px;
+    transition: 0.5s;
+}
+.menu-bg .one .contact:hover{
+    background-color: #1BBF00;
+    color: white;
+}
+/* navbar part end */
+/* banner part start */
+#banner{
+    background-color: #6B62C5;
+}
+.banner_main{
+    padding-top: 200px;
+    padding-bottom: 200px;
+}
+.banner_text h3{
+    color: white;
+    font-size: 54px;
+    font-weight: 700;
+    font-family: 'Open Sans', sans-serif;
+}
+.banner_text p{
+    color: white;
+    font-size: 16px;
+    font-weight: 500;
+    font-family: 'Open Sans', sans-serif;
+}
+.banner_text h5{
+    color: white;
+    font-size: 18px;
+    font-weight: 500;
+    font-family: 'Open Sans', sans-serif;
+    border: 2px solid #1BBF00;
+    width: 200px;
+    height: 60px;
+    border-radius: 20px;
+    text-align: center;
+    line-height: 60px;
+    transition: 0.5s;
+}
+.banner_text h5:hover{
+    background-color: #1BBF00;
+    color: white;
+}
+.banner_text h6{
+    color: white;
+    font-size: 18px;
+    font-weight: 500;
+    font-family: 'Open Sans', sans-serif;
+    border: 2px solid #1BBF00;
+    border-radius: 20px;
+    width: 160px;
+    height: 60px;
+    text-align: center;
+    line-height: 60px;
+    transition: 0.5s;
+}
+.banner_text h6:hover{
+    background-color: #1BBF00;
+    color: white;
+}
+/* banner part end */
+/* text part start */
+.text_one{
+    background: url(../images/banner9.png);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 250px;
+    height: 200px;
+}
+.text_two{
+    background: url(../images/banner9.png);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 230px;
+    height: 300px;
+}
+.text_three{
+    background: url(../images/banner9.png);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 260px;
+    height: 260px;
+}
+.text_four{
+    background: url(../images/banner9.png);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 200px;
+    height: 320px;
+}
+/* text part end */
+/* get part start */
+#get{
+    background-color: #F9F9FB;
+}
+.get_main{
+    padding-top: 100px;
+    padding-bottom: 100px;
+    margin-top: 50px;
+    margin-bottom: 100px;
+}
+.get_text h2{
+    color: #1BBF00;
+    font-size: 48px;
+    font-weight: 700;
+    font-family: 'Open Sans', sans-serif;
+    text-align: center;
+}
+.get_text h4{
+    color: black;
+    font-size: 30px;
+    font-weight: 600;
+    font-family: 'Open Sans', sans-serif;
+    text-align: center;
+}
+.get_text{
+    border-right: 2px solid #4F585F;
+}
+/* get part end */
+/* use part start */
+.use_con{
+    background-color: whitesmoke;
+    margin-top: 30px;
+    padding-top: 30px;
+    padding-bottom: 30px;
+    border-radius: 20px;
+}
+.use_con a{
+    color: black;
+    font-size: 18px;
+    font-weight: 500;
+    font-family: 'Open Sans', sans-serif;
+    text-align: center;
+}
+.use_text h3{
+    color: black;
+    font-size: 40px;
+    font-weight: 600;
+    font-family: 'Open Sans', sans-serif;
+}
+.use_text p{
+    color: #4F585F;
+    font-size: 16px;
+    font-weight: 500;
+    font-family: 'Open Sans', sans-serif;
+}
+.use_text h6{
+    color: black;
+    font-size: 18px;
+    font-weight: 500;
+    font-family: 'Open Sans', sans-serif;
+    border: 2px solid #1BBF00;
+    border-radius: 20px;
+    width: 160px;
+    height: 60px;
+    text-align: center;
+    line-height: 60px;
+    transition: 0.5s;
+}
+.use_text h6:hover{
+    background-color: #1BBF00;
+    color: white;
+}
+/* use part end */
+/* do part start */
+#do{
+    background-color: #F6F5FF;
+}
+.do_main{
+    padding-top: 100px;
+    padding-bottom: 100px;
+    margin-top: 128px;
+    margin-bottom: 128px;
+}
+.do_text h3{
+    color: black;
+    font-size: 40px;
+    font-weight: 700;
+    font-family: 'Open Sans', sans-serif;
+}
+.do_text p{
+    color: #4F585F;
+    font-size: 16px;
+    font-weight: 500;
+    font-family: 'Open Sans', sans-serif;
+}
+.do_write{
+    background-color: #6B62C5;
+    padding-top: 30px;
+    padding-bottom: 30px;
+    border-radius: 20px;
+    margin-top: 20px;
+}
+.do_write h4{
+    color: white;
+    font-size: 30px;
+    font-weight: 600;
+    font-family: 'Open Sans', sans-serif;
+    text-align: center;
+}
+.do_write img{
+    margin-left: 140px;
+}
+.do_write p{
+    color: white;
+    font-size: 16px;
+    font-weight: 500;
+    font-family: 'Open Sans', sans-serif;
+    text-align: center;
+}
+.do_write h6{
+    color: white;
+    font-size: 18px;
+    font-weight: 600;
+    font-family: 'Open Sans', sans-serif;
+    text-align: center;
+}
+.do_img{
+    background-color: #FFFFFF;
+    padding-top: 30px;
+    padding-bottom: 30px;
+    border-radius: 20px;
+    margin-top: 30px;
+}
+.do_img img{
+    margin-left: 140px;
+}
+.do_img h4{
+    color: black;
+    font-size: 30px;
+    font-weight: 600;
+    font-family: 'Open Sans', sans-serif;
+    text-align: center;
+}
+.do_img p{
+    color: #4F585F;
+    font-size: 16px;
+    font-weight: 500;
+    font-family: 'Open Sans', sans-serif;
+    text-align: center;
+}
+.do_img h6{
+    color: black;
+    font-size: 18px;
+    font-weight: 600;
+    font-family: 'Open Sans', sans-serif;
+    text-align: center;
+}
+/* do part end */
+/* we part start */
+.we_main{
+    padding-bottom: 100px;
+}
+.we_text h3{
+    color: black;
+    font-size: 40px;
+    font-weight: 600;
+    font-family: 'Open Sans', sans-serif;
+}
+.we_text p{
+    color: #4F585F;
+    font-size: 16px;
+    font-weight: 500;
+    font-family: 'Open Sans', sans-serif;
+}
+/* we part end */
+/* real part start */
+.real_icone img{
+    width: 100%;
+}
+.real_logo{
+    margin-top: -260px;
+}
+.real_text h4{
+    color: black;
+    font-size: 30px;
+    font-weight: 600;
+    font-family: 'Open Sans', sans-serif;
+}
+.real_text p{
+    color: #4F585F;
+    font-size: 16px;
+    font-weight: 500;
+    font-family: 'Open Sans', sans-serif;
+}
+.real_logo h4{
+    color: black;
+    font-size: 30px;
+    font-weight: 600;
+    font-family: 'Open Sans', sans-serif;
+}
+.real_logo p{
+    color: #4F585F;
+    font-size: 16px;
+    font-weight: 500;
+    font-family: 'Open Sans', sans-serif;
+}
+/* real part end */
+/* chose part start */
+.chose_logo h4{
+    color: black;
+    font-size: 30px;
+    font-weight: 600;
+    font-family: 'Open Sans', sans-serif;
+    text-align: center;
+}
+.chose_logo h5{
+    color: #1BBF00;
+    font-size: 34px;
+    font-weight: 600;
+    font-family: 'Open Sans', sans-serif;
+    text-align: center;
+}
+.chose_logo p{
+    color: #4F585F;
+    font-size: 16px;
+    font-weight: 500;
+    font-family: 'Open Sans', sans-serif;
+    text-align: center;
+}
+.chose_log h4{
+    color: black;
+    font-size: 30px;
+    font-weight: 600;
+    font-family: 'Open Sans', sans-serif;
+    text-align: center;
+}
+.chose_log h5{
+    color: #1BBF00;
+    font-size: 34px;
+    font-weight: 600;
+    font-family: 'Open Sans', sans-serif;
+    text-align: center;
+    margin-top: 60px;
+}
+.chose_log p{
+    color: #4F585F;
+    font-size: 16px;
+    font-weight: 500;
+    font-family: 'Open Sans', sans-serif;
+    text-align: center;
+    margin-top: 20px;
+}
+.chose_log img{
+    margin-left: 100px;
+}
+.chose_log{
+    background-color: whitesmoke;
+    padding-top: 40px;
+    padding-bottom: 40px;
+    border-radius: 20px;
+}
+.chose_logo{
+    background-color: whitesmoke;
+    padding-top: 40px;
+    padding-bottom: 40px;
+    border-radius: 20px;
+}
+.chose_text h3{
+    color: black;
+    font-size: 40px;
+    font-weight: 600;
+    font-family: 'Open Sans', sans-serif;
+    text-align: center;
+    padding-bottom: 40px;
+}
+/* chose part end */
+/* you part start */
+.you_write ul{
+    display: flex;
+}
+.you_write ul li{
+    margin-left: 10px;
+}
+.you_write ul li a{
+    color: black;
+    font-size: 18px;
+    font-weight: 500;
+    font-family: 'Open Sans', sans-serif;
+    transition: 0.5s;
+}
+.you_write ul li a:hover{
+    background-color: #1BBF00;
+    color: white;
+    border-radius: 5px;
+}
+.you_write h4{
+    color: black;
+    font-size: 30px;
+    font-weight: 600;
+    font-family: 'Open Sans', sans-serif;
+}
+.you_write h6{
+    color: black;
+    font-size: 24px;
+    font-weight: 600;
+    font-family: 'Open Sans', sans-serif;
+}
+.you_img img{
+    padding-bottom: 30px;
+}
+.you_text{
+    padding-top: 128px;
+    padding-bottom: 50px;
+}
+.you_text h3{
+    color: black;
+    font-size: 40px;
+    font-weight: 600;
+    font-family: 'Open Sans', sans-serif;
+}
+/* you part end */
+/* footer part start */
+#footer{
+    background-color: #48409C;
+}
+.footer_text p{
+    color: white;
+    font-size: 16px;
+    font-weight: 500;
+    font-family: 'Open Sans', sans-serif;
+    padding-top: 30px;
+}
+.footer_menu h4{
+    color: white;
+    font-size: 24px;
+    font-weight: 600;
+    font-family: 'Open Sans', sans-serif;
+    padding-bottom: 30px;
+}
+.footer_menu ul{
+    margin-left: -30px;
+}
+.footer_menu ul li{
+    color: white;
+    font-size: 16px;
+    font-weight: 500;
+    font-family: 'Open Sans', sans-serif;
+    padding: 10px 0;
+}
+.footer_email h6{
+    color: white;
+    font-size: 16px;
+    font-weight: 500;
+    font-family: 'Open Sans', sans-serif;
+    padding-top: 30px;
+}
+.footer_text{
+    padding-top: 100px;
+}
+.footer_menu{
+    padding-top: 100px;
+}
+/* footer part end */

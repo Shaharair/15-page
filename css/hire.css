@@ -1,0 +1,521 @@
+*{
+    padding: 0;
+    margin: 0
+}
+ul{
+    list-style: none;
+}
+a{
+    text-decoration: none;
+}
+.menu-bg{
+    width: 100%;
+    position: absolute;
+    z-index: 999;
+}
+/* navbar part start */
+.menu-bg ul li{
+    padding-left: 30px;
+}
+.menu-bg ul li a{
+    color: white;
+    font-size: 18px;
+    font-weight: 500;
+    font-family: 'Open Sans', sans-serif;
+}
+.menu-bg .one .contact{
+    color: white;
+    font-size: 18px;
+    font-weight: 500;
+    font-family: 'Open Sans', sans-serif;
+    border: 2px solid #8454F5;
+    border-radius: 20px;
+    padding: 18px 50px;
+    margin-left: 60px;
+    transition: 0.5s;
+}
+.menu-bg .one .contact:hover{
+    background-color: #8454F5;
+    color: white;
+}
+/* navbar part end */
+/* text part start */
+#text{
+    background-color: purple;
+}
+.text_main{
+    padding-top: 128px;
+    padding-bottom: 128px;
+}
+.text_img img{
+    width: 100%;
+}
+.text_text h3{
+    color: white;
+    font-size: 48px;
+    font-weight: 700;
+    font-family: 'Open Sans', sans-serif;
+    margin-top: -30px;
+}
+.text_text p{
+    color: white;
+    font-size: 16px;
+    font-weight: 600;
+    font-family: 'Open Sans', sans-serif;
+}
+.text_text h6{
+    color: white;
+    font-size: 18px;
+    font-weight: 500;
+    font-family: 'Open Sans', sans-serif;
+    border: 2px solid #8454F5;
+    border-radius: 20px;
+    width: 200px;
+    height: 60px;
+    text-align: center;
+    line-height: 60px;
+    transition: 0.5s;
+}
+.text_text h6:hover{
+    background-color: #8454F5;
+    color: white;
+}
+.text_text img{
+    width: 50%;
+    margin-left: -30px;
+    margin-top: 40px;
+}
+/* text part end */
+/* best part start */
+.best_text{
+    padding-top: 128px;
+    padding-bottom: 50px;
+}
+.best_text h3{
+    color: black;
+    font-size: 40px;
+    font-weight: 600;
+    font-family: 'Open Sans', sans-serif;
+    text-align: center;
+}
+.best_img{
+    background-color: whitesmoke;
+    padding-top: 40px;
+    padding-bottom: 40px;
+    border-radius: 20px;
+}
+.best_img img{
+    margin-left: 30px;
+}
+.best_img h4{
+    color: black;
+    font-size: 24px;
+    font-weight: 600;
+    font-family: 'Open Sans', sans-serif;
+    margin-top: 20px;
+    margin-left: 30px;
+}
+.best_img p{
+    color: #29313D;
+    font-size: 16px;
+    font-weight: 500;
+    font-family: 'Open Sans', sans-serif;
+    margin-left: 30px;
+}
+.best_img h5{
+    color: black;
+    font-size: 24px;
+    font-weight: 600;
+    font-family: 'Open Sans', sans-serif;
+    margin-left: 30px;
+}
+/* best part end */
+/* img part start */
+.img_img img{
+    padding-top: 128px;
+    padding-bottom: 128px;
+}
+.img_text{
+    padding-top: 200px;
+}
+.img_text h3{
+    color: black;
+    font-size: 44px;
+    font-weight: 700;
+    font-family: 'Open Sans', sans-serif;
+}
+.img_text p{
+    color: #29313D;
+    font-size: 16px;
+    font-weight: 500;
+    font-family: 'Open Sans', sans-serif;
+}
+.img_content{
+    padding-top: 60px;
+}
+.img_content h4{
+    color: black;
+    font-size: 24px;
+    font-weight: 600;
+    font-family: 'Open Sans', sans-serif;
+    margin-top: 30px;
+}
+.img_content p{
+    color: #29313D;
+    font-size: 16px;
+    font-weight: 500;
+    font-family: 'Open Sans', sans-serif;
+}
+.img_content h6{
+    color: black;
+    font-size: 24px;
+    font-weight: 600;
+    font-family: 'Open Sans', sans-serif;
+}
+/* img part end */
+/* over part start */
+.over_img img{
+    margin-left: 600px;
+    margin-top: -600px;
+    margin-bottom: 128px;
+}
+.over_text{
+    padding-top: 100px;
+}
+.over_text h3{
+     color: black;
+     font-size: 44px;
+     font-weight: 700;
+    font-family: 'Open Sans', sans-serif;
+}
+.over_text p{
+    color: #29313D;
+    font-size: 16px;
+    font-weight: 500;
+    font-family: 'Open Sans', sans-serif;
+}
+.over_writte{
+    padding-top: 50px;
+}
+.over_writte h4{
+    color: black;
+    font-size: 24px;
+    font-weight: 600;
+    font-family: 'Open Sans', sans-serif;
+    margin-top: 30px;
+}
+.over_writte p{
+    color: #29313D;
+    font-size: 16px;
+    font-weight: 500;
+    font-family: 'Open Sans', sans-serif;
+}
+.over_writte h6{
+    color: black;
+    font-size: 24px;
+    font-weight: 600;
+    font-family: 'Open Sans', sans-serif;
+}
+/* over part end */
+/* apps part start */
+.apps_text h3{
+    color: black;
+    font-size: 40px;
+    font-weight: 700;
+    font-family: 'Open Sans', sans-serif;
+    text-align: center;
+}
+.apps_text p{
+    color: #29313D;
+    font-size: 16px;
+    font-weight: 500;
+    font-family: 'Open Sans', sans-serif;
+    text-align: center;
+}
+.apps_img img{
+    width: 125%;
+}
+/* apps part end */
+/* top part start */
+.top_text{
+    padding-top: 100px;
+}
+.top_text h3{
+    color: black;
+    font-size: 40px;
+    font-weight: 600;
+    font-family: 'Open Sans', sans-serif;
+}
+.top_text h6{
+    color: black;
+    font-size: 18px;
+    font-weight: 500;
+    font-family: 'Open Sans', sans-serif;
+    border: 2px solid #8454F5;
+    border-radius: 20px;
+    width: 180px;
+    height: 60px;
+    text-align: center;
+    line-height: 60px;
+    transition: 0.5s;
+}
+.top_text h6:hover{
+    background-color: #8454F5;
+    color: white;
+}
+.top_img img{
+    background-color: #F3F7FD;
+    border-radius: 20px;
+    margin-top: 40px;
+}
+/* top part end */
+/* free part start */
+.free_text{
+    padding-top: 100px;
+}
+.free_text h3{
+    color: black;
+    font-size: 40px;
+    font-weight: 700;
+    font-family: 'Open Sans', sans-serif;
+    text-align: center;
+}
+.free_text p{
+    color: #29313D;
+    font-size: 16px;
+    font-weight: 500;
+    font-family: 'Open Sans', sans-serif;
+    text-align: center;
+}
+.free_text i{
+    color: #8454F5;
+    font-size: 30px;
+    margin-left: 150px;
+}
+.free_box{
+    background-color: whitesmoke;
+    padding-top: 40px;
+    padding-bottom: 50px;
+    border-radius: 20px;
+    margin-top: 40px;
+}
+.free_box h5{
+     color: black;
+     font-size: 30px;
+     font-weight: 600;
+    font-family: 'Open Sans', sans-serif;
+    text-align: center;
+    border-bottom: 2px solid #1B1157;
+}
+.free_box h2{
+    color: black;
+    font-size: 40px;
+    font-weight: 700;
+    font-family: 'Open Sans', sans-serif;
+    margin-left: 30px;
+    padding-top: 30px;
+}
+.free_box h6{
+    color: black;
+    font-size: 18px;
+    font-weight: 500;
+    font-family: 'Open Sans', sans-serif;
+    border: 2px solid #8454F5;
+    border-radius: 20px;
+    width: 170px;
+    height: 60px;
+    text-align: center;
+    line-height: 60px;
+    margin-left: 150px;
+    margin-top: -60px;
+    transition: 0.5s;
+}
+.free_box h6:hover{
+    background-color: #8454F5;
+    color: white;
+}
+.free_box a{
+    color: black;
+    font-size: 18px;
+    font-weight: 500;
+    font-family: 'Open Sans', sans-serif;
+    margin-left: 30px;
+}
+.free_box i{
+    color: black;
+    font-size: 20px;
+    border: 2px solid #1B1157;
+    border-radius: 10px;
+    width: 30px;
+    height: 30px;
+    text-align: center;
+    line-height: 30px;
+}
+/* free part end */
+/* banner part start */
+.banner_text{
+    padding-top: 128px;
+    padding-bottom: 50px;
+}
+.banner_icone{
+    padding-top: 128px;
+    padding-bottom: 50px;
+}
+.banner_text h3{
+    color: black;
+    font-size: 40px;
+    font-weight: 700;
+    font-family: 'Open Sans', sans-serif;
+}
+.banner_icone h4{
+    color: black;
+    font-size: 24px;
+    font-weight: 600;
+    font-family: 'Open Sans', sans-serif;
+}
+.banner_icone i{
+    color: black;
+    font-size: 20px;
+    border: 2px solid #8454F5;
+    border-radius: 30px;
+    width: 50px;
+    height: 50px;
+    text-align: center;
+    line-height: 50px;
+    transition: 0.5s;
+}
+.banner_icone i:hover{
+    background-color: #8454F5;
+    color: white;
+}
+.banner_img img{
+    padding-bottom: 40px;
+    width: 100%;
+}
+.banner_logo img{
+    width: 100%;
+}
+.banner_log img{
+    width: 100%;
+    padding-top: 30px;
+}
+.banner_writte{
+    padding-top: 60px;
+}
+.banner_log{
+    padding-top: 50px;
+}
+.banner_logo{
+    padding-top: 50px;
+}
+.banner_writte h3{
+    color: black;
+    font-size: 30px;
+    font-weight: 600;
+    font-family: 'Open Sans', sans-serif;
+}
+.banner_writte p{
+    color: #1B1157;
+    font-size: 16px;
+    font-weight: 500;
+    font-family: 'Open Sans', sans-serif;
+}
+.banner_logo h5{
+    color: black;
+    font-size: 24px;
+    font-weight: 600;
+    font-family: 'Open Sans', sans-serif;
+}
+.banner_logo i{
+    color: red;
+}
+.banner_img h6{
+    color: black;
+    font-size: 18px;
+    font-weight: 600;
+    font-family: 'Open Sans', sans-serif;
+    border: 2px solid #8454F5;
+    border-radius: 20px;
+    width: 180px;
+    height: 60px;
+    text-align: center;
+    line-height: 60px;
+    transition: 0.5s;
+}
+.banner_img h6:hover{
+    background-color: #8454F5;
+    color: white;
+}
+/* banner part end */
+/* button part start */
+#button{
+    background-color: #1B1157;
+    border-radius: 20px;
+}
+.button_main{
+    padding-top: 100px;
+    padding-bottom: 100px;
+}
+.button_text h3{
+    color: white;
+    font-size: 40px;
+    font-weight: 600;
+    font-family: 'Open Sans', sans-serif;
+}
+.button_text h6{
+    color: white;
+    font-size: 18px;
+    font-weight: 500;
+    font-family: 'Open Sans', sans-serif;
+    border: 2px solid #F8FDFE;
+    border-radius: 20px;
+    width: 180px;
+    height: 60px;
+    text-align: center;
+    line-height: 60px;
+    transition: 0.5s;
+}
+.button_text h6:hover{
+    background-color: #F8FDFE;
+    color: black;
+}
+/* button part end */
+/* footer part start */
+.footer_text p{
+    color: black;
+    font-size: 16px;
+    font-weight: 500;
+    font-family: 'Open Sans', sans-serif;
+    padding-top: 30px;
+}
+.footer_menu h4{
+    color: black;
+    font-size: 24px;
+    font-weight: 600;
+    font-family: 'Open Sans', sans-serif;
+    padding-bottom: 30px;
+}
+.footer_menu ul{
+    margin-left: -30px;
+}
+.footer_menu ul li{
+    color: black;
+    font-size: 16px;
+    font-weight: 500;
+    font-family: 'Open Sans', sans-serif;
+    padding: 10px 0;
+}
+.footer_email h6{
+    color: black;
+    font-size: 16px;
+    font-weight: 500;
+    font-family: 'Open Sans', sans-serif;
+    padding-top: 30px;
+}
+.footer_text{
+    padding-top: 100px;
+}
+.footer_menu{
+    padding-top: 100px;
+}
+/* footer part end */
